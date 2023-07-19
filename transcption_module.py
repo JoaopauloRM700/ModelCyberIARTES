@@ -4,6 +4,7 @@ import os
 import SimilarityFolders 
 
 # OpenAI API KEY
+
 openai.api_key = "{API-KEY}}"
 
 index = 0
