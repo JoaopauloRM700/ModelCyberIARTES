@@ -1,0 +1,25 @@
+Test Case org.simpledo/.CreateItem
+
+long click android.widget.Spinner  bounds:[28,224][692,288]
+
+clicked  android.widget.CheckedTextView  bounds:[35,460][664,544]
+
+long click android.widget.Spinner  bounds:[28,288][692,352]
+
+clicked  android.widget.TextView  bounds:[35,352][664,390]
+
+typed in android.widget.EditText  bounds:[28,139][692,224] value: cmjxBwEdyDnSLBXCYnFvrqEneuqUdAXtANjEqeSascKEvCaXJFRzwNcLXYYqUwmFUOjefkwyuiecSyCKiWGFdifDXZIeMqWqRVuo
+
+typed in android.widget.EditText  bounds:[28,139][692,300] value: 22628257874075845470
+
+scroll down android.widget.Spinner  bounds:"[28,224][692,288]"
+
+clicked  android.widget.CheckedTextView  bounds:[35,374][664,458]
+
+clicked  android.widget.LinearLayout Create Item, Navegar para cima bounds:[0,55][263,139]
+
+Got Crash, see crash.txt line 108
+
+Got Error, see errors.txt line 432
+
+Go to next activity: home

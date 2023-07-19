@@ -1,0 +1,27 @@
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.record.MainActivity
+
+long click top left android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner   bounds:[403,62][720,146]  Screen: states/state_20210411-152452.png
+
+clicked  android.widget.TextView android:id/text1  Tudo bounds:[403,398][580,482]  Screen: states/state_20210411-152459.png
+
+clicked  android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner   bounds:[403,62][720,146]  Screen: states/state_20210411-152506.png
+
+clicked  android.widget.TextView android:id/text1  Personalizado bounds:[403,482][580,510]  Screen: states/state_20210411-152512.png
+
+clicked  android.widget.ImageButton android:id/prev Mês passado  bounds:[87,534][171,618]  Screen: states/state_20210411-152520.png
+
+clicked  android.widget.ImageButton android:id/next Próximo mês  bounds:[548,534][632,618]  Screen: states/state_20210411-152527.png
+
+clicked  android.widget.Button com.blogspot.e_kanivets.moneytracker:id/b_ok  OK bounds:[46,1108][360,1164]  Screen: states/state_20210411-152534.png
+
+Got Error, see errors.txt line 6
+
+clicked  android.widget.Button com.blogspot.e_kanivets.moneytracker:id/b_cancel  CANCELAR bounds:[360,1108][645,1164]  Screen: states/state_20210411-152540.png
+
+Got Error, see errors.txt line 8
+
+scroll down android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner   bounds:[403,62][720,146]  Screen: states/state_20210411-152547.png
+
+clicked  android.widget.Button com.blogspot.e_kanivets.moneytracker:id/btnAddIncome  ADICIONAR RECEITA bounds:[0,1346][360,1381]  Screen: states/state_20210411-152554.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/.activity.record.AddRecordActivity

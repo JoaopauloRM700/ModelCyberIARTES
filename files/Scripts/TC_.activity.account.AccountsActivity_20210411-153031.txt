@@ -1,0 +1,46 @@
+Test Case ID: TC_.activity.account.AccountsActivity_20210411-153031
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity
+
+long click bottom android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-153038.png
+
+clicked  android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-153052.png
+
+long click top left android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-153104.png
+
+clicked  android.widget.LinearLayout	bounds:[0,395][720,457]  Screen: states/state_20210411-153113.png
+
+scroll down android.widget.ListView	bounds:[491,144][552,1380]  Screen: states/state_20210411-153122.png
+
+scroll right android.widget.ListView	bounds:[491,144][552,1380]  Screen: states/state_20210411-153131.png
+
+scroll right android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[491,228][692,272]  Screen: states/state_20210411-153138.png
+
+scroll up android.widget.ListView	bounds:[491,144][552,1380]  Screen: states/state_20210411-153147.png
+
+clicked  android.widget.TextView android:id/text1  KRW bounds:[491,480][552,564]  Screen: states/state_20210411-153155.png
+
+long click center android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-153205.png
+
+scroll up android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[486,228][692,272]  Screen: states/state_20210411-153213.png
+
+clicked  android.widget.TextView android:id/text1  LAK bounds:[486,480][552,564]  Screen: states/state_20210411-153222.png
+
+long click top left android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[485,228][692,272]  Screen: states/state_20210411-153231.png
+
+clicked  android.widget.TextView android:id/text1  LYD bounds:[485,480][552,564]  Screen: states/state_20210411-153241.png
+
+long click bottom android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[485,228][692,272]  Screen: states/state_20210411-153252.png
+
+scroll down android.widget.ListView	bounds:[485,144][552,1380]  Screen: states/state_20210411-153301.png
+
+clicked  android.widget.TextView android:id/text1  CVE bounds:[485,1250][552,1334]  Screen: states/state_20210411-153310.png
+
+long click top left android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[496,228][692,272]  Screen: states/state_20210411-153319.png
+
+scroll down android.widget.ListView	bounds:[496,144][552,1380]  Screen: states/state_20210411-153328.png
+
+scroll left android.widget.ListView	bounds:[496,144][552,1380]  Screen: states/state_20210411-153337.png
+
+clicked  android.widget.TextView com.blogspot.e_kanivets.moneytracker:id/action_transfer Transferir  bounds:[636,62][720,146]  Screen: states/state_20210411-153344.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/.activity.account.TransferActivity

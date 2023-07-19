@@ -1,0 +1,18 @@
+Test Case ID: TC_.activity.account.TransferActivity_20210411-144754
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.account.TransferActivity
+
+typed in android.widget.EditText com.blogspot.e_kanivets.moneytracker:id/et_to_amount  bounds:[374,299][692,378] value: A+>Vdadt)4F-/.c  Screen: states/state_20210411-144800.png
+
+typed in android.widget.EditText com.blogspot.e_kanivets.moneytracker:id/et_from_amount  bounds:[28,299][346,378] value: 30151602285102905116  Screen: states/state_20210411-144808.png
+
+long click center android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner_from   bounds:[28,210][346,280]  Screen: states/state_20210411-144816.png
+
+clicked  android.widget.TextView android:id/text1  Default bounds:[28,210][206,238]  Screen: states/state_20210411-144822.png
+
+clicked  android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner_to   bounds:[374,210][692,280]  Screen: states/state_20210411-144827.png
+
+clicked  android.widget.TextView android:id/text1  Default bounds:[374,210][552,238]  Screen: states/state_20210411-144832.png
+
+clicked  android.widget.ImageButton  Navegar para cima  bounds:[0,55][98,153]  Screen: states/state_20210411-144837.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity

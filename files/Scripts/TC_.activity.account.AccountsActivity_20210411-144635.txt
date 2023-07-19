@@ -1,0 +1,19 @@
+Test Case ID: TC_.activity.account.AccountsActivity_20210411-144635
+
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity
+
+long click top left android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-144646.png
+
+long click center android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-144659.png
+
+clicked  android.widget.TextView android:id/text1  BBD bounds:[491,480][552,564]  Screen: states/state_20210411-144709.png
+
+long click bottom android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-144721.png
+
+long click center android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinnerCurrency   bounds:[492,228][692,272]  Screen: states/state_20210411-144733.png
+
+clicked  android.widget.TextView android:id/text1  BBD bounds:[492,144][552,228]  Screen: states/state_20210411-144742.png
+
+clicked  android.widget.LinearLayout	bounds:[0,153][720,393]  Screen: states/state_20210411-144752.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/.activity.account.TransferActivity

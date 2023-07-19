@@ -1,0 +1,26 @@
+Test Case ID: TC_.activity.account.TransferActivity_20210411-144754 
+
+Description: Perform exploratory actions on the TransferActivity screen of the Moneytracker application.
+
+Preconditions: 
+1- Have Moneytracker installed. 
+2- Being on the TransferActivity screen.
+
+Test Steps: 
+1- Entered the value "A+>Vdadt)4F-/.c" in the "To Amount" EditText field. 
+2- Entered the value "30151602285102905116" in the "From Amount" EditText field. 
+3- Long-clicked on the center of the "From Account" Spinner to open a context menu. 
+4- Clicked on a TextView item in the dropdown list of the "From Account" Spinner. 
+5- Clicked on the "To Account" Spinner to select an account from the list. 
+6- Clicked on a TextView item in the dropdown list of the "To Account" Spinner. 
+7- Clicked on the "Navigate Up" button. 
+8- Proceeded to the next activity, which is "com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity".
+
+Resultado obtido: 
+State 1: states/state_20210411-144800.png 
+State 2: states/state_20210411-144808.png 
+State 3: states/state_20210411-144816.png 
+State 4: states/state_20210411-144822.png 
+State 5: states/state_20210411-144827.png 
+State 6: states/state_20210411-144832.png 
+State 7: states/state_20210411-144837.png

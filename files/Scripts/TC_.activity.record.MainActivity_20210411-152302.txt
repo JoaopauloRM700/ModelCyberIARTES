@@ -1,0 +1,5 @@
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.record.MainActivity
+
+clicked  android.widget.Button com.blogspot.e_kanivets.moneytracker:id/btnAddIncome  ADICIONAR RECEITA bounds:[0,1346][360,1381]  Screen: states/state_20210411-152307.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/.activity.record.AddRecordActivity

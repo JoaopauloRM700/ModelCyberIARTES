@@ -1,0 +1,11 @@
+Test Case com.blogspot.e_kanivets.moneytracker/.activity.record.MainActivity
+
+long click bottom android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner   bounds:[403,62][720,146]  Screen: states/state_20210411-152659.png
+
+clicked  android.widget.TextView android:id/text1  Mês bounds:[403,230][580,314]  Screen: states/state_20210411-152706.png
+
+clicked  android.widget.ImageButton  Open navigation drawer  bounds:[0,55][98,153]  Screen: states/state_20210411-152714.png
+
+clicked  androidx.appcompat.widget.LinearLayoutCompat com.blogspot.e_kanivets.moneytracker:id/nav_backup   bounds:[0,594][490,678]  Screen: states/state_20210411-152723.png
+
+Go to next activity: com.blogspot.e_kanivets.moneytracker/com.dropbox.core.android.AuthActivity
