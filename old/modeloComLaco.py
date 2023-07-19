@@ -3,7 +3,7 @@ import os
 import SimilarityFolders 
 
 # OpenAI API KEY
-openai.api_key = "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"
+openai.api_key = ""
 
 input_folder = '/home/iartes/Documentos/Equipe-2/Calculadora/testcase-calculadora1'
 output_folder = '/home/iartes/Documentos/Equipe-2/Calculadora/transcription1'
