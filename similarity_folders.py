@@ -3,25 +3,25 @@ import re
 
 
 def compare_documents_in_folder(folder_path):
-    # Lista para armazenar os nomes dos arquivos semelhantes
+    # List to store the names of similar files
     similar_files = []
-    files_to_discard = []  # Lista para armazenar os nomes dos arquivos a serem descartados
+    files_to_discard = []  # List to store the names of files to be discarded
 
-    # Obter a lista de arquivos no diretório fornecido
+    # Get the list of files in the provided directory
     file_list = os.listdir(folder_path)
 
-    # Loop para comparar todos os pares de arquivos
+    # Loop to compare all pairs of files
     for i in range(len(file_list)):
         for j in range(i+1, len(file_list)):
             file1 = os.path.join(folder_path, file_list[i])
             file2 = os.path.join(folder_path, file_list[j])
             similarity_percentage = compare_documents(file1, file2)
 
-            # Verificar a similaridade entre os arquivos
+            # Check the similarity between the files
             if similarity_percentage > 90:
                 similar_files.append((file_list[i], file_list[j]))
 
-                # Determinar qual arquivo pode ser descartado com base no número de linhas
+                # Determine which file can be discarded based on the number of lines
                 lines_file1 = len(open(file1).readlines())
                 lines_file2 = len(open(file2).readlines())
 
@@ -37,11 +37,11 @@ def remover_duplicatas(lista):
     return lista_unica
 
 def list_arquivos(folder_path, files_to_exclude):
-    # Obter a lista de arquivos no diretório fornecido
+    # Get the list of files in the provided directory
     file_list = os.listdir(folder_path)
 
     list_docs = []
-    # Loop para imprimir os arquivos, excluindo aqueles presentes na lista files_to_exclude
+    # Loop to list the files, excluding those present in the files_to_exclude list
     for file_name in file_list:
         file_path = os.path.join(folder_path, file_name)
         if file_path not in files_to_exclude:
@@ -51,54 +51,29 @@ def list_arquivos(folder_path, files_to_exclude):
 
 
 def compare_documents(doc1, doc2):
+    # Read the content of the first document and preprocess the lines
     with open(doc1, 'r') as file1:
         text1 = file1.read().splitlines()
         lines1 = set(preprocess(text1))
-
+    # Read the content of the second document and preprocess the lines
     with open(doc2, 'r') as file2:
         text2 = file2.read().splitlines()
         lines2 = set(preprocess(text2))
-
+    # Find the common lines between the two documents
     common_lines = lines1.intersection(lines2)
+    # Calculate the similarity percentage based on the number of common lines
     similarity_percentage = (len(common_lines) / min(len(lines1), len(lines2))) * 100
 
     return similarity_percentage
 
 
 def preprocess(text):
+    # Define a regular expression pattern to match screen references
     screen_pattern = re.compile(r'Screen: states/state_\d{8}-\d{6}\.png')
+    # Process each line in the text and replace screen references with '<SCREEN>'
     processed_lines = []
     for line in text:
         processed_line = re.sub(screen_pattern, '<SCREEN>', line)
         processed_lines.append(processed_line)
 
     return processed_lines
-
-
-# folder_path = 'files/Scripts'
-
-# # # Chamada da função para comparar os documentos na pasta
-# similar_documents, documents_to_discard = compare_documents_in_folder(folder_path)
-
-# # # Imprimir os nomes dos documentos com similaridade acima de 90%
-# # if similar_documents:
-# #     print("Arquivos com similaridade acima de 90%:")
-# #     for file_pair in similar_documents:
-# #         print(file_pair[0], file_pair[1])
-# # else:
-# #     print("Nenhum arquivo encontrado com similaridade acima de 90%.")
-
-# # Imprimir todos os arquivos da pasta excluindo os arquivos a serem descartados
-# # print("Arquivos na pasta:")
-# list_docs = list_arquivos(folder_path, documents_to_discard)
-
-# # # Imprimir os nomes dos documentos que podem ser descartados
-# # if documents_to_discard:
-# #     print("Arquivos a serem descartados:")
-# #     for file_name in documents_to_discard:
-# #         print(file_name)
-# # else:
-# #     print("Nenhum arquivo a ser descartado.")
-
-# print(len(list_docs))
-# print(len(os.listdir(folder_path)))

@@ -3,7 +3,6 @@ import os
 import similarity_folders 
 
 # OpenAI API KEY
-client = OpenAI(api_key="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")
 #client = OpenAI(api_key="{$APIKEY}")
 
 index = 0
