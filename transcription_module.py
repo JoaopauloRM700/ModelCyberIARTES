@@ -3,6 +3,7 @@ import os
 import similarity_folders 
 
 # OpenAI API KEY
+client = OpenAI(api_key="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")
 #client = OpenAI(api_key="{$APIKEY}")
 
 index = 0
@@ -41,7 +42,6 @@ def the_world_is_our(input_folder, output_folder):
             for i in list_docs[index:]:
                 # Extract the base name of the file
                 tc_name = os.path.basename(i)
-
                 # Read the content of the current document
                 input_text = read_text_file(i)
 
@@ -63,14 +63,11 @@ def the_world_is_our(input_folder, output_folder):
 
                 # Extract the generated output text
                 output_text = response.choices[0].message.content.strip()
-
                 # Construct the output file path and write the result to the file
                 output_file_path = os.path.join(output_folder, tc_name)
                 write_text_file(output_file_path, output_text)
-
                 # Print a message indicating that the result has been saved to the file
                 print("The result has been saved to the file", output_file_path)
-
 
                 index += 1  # Increment the value of index
 
