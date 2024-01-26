@@ -1,0 +1,21 @@
+# pip install -r requirements.txt
+# Python 3.10.9
+
+aiohttp==3.8.4
+attrs==23.1.0
+cmake==3.25.0
+filelock==3.12.0
+fsspec==2023.5.0
+idna==3.4
+Jinja2==3.1.2
+numpy==1.24.3
+Pillow==9.3.0
+PyYAML==6.0pyth
+requests==2.30.0
+tqdm==4.65.0
+transformers==4.29.1
+triton==2.0.0
+typing_extensions==4.5.0
+urllib3==2.0.2
+yarl==1.9.2
+openai==1.9.0
