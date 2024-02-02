@@ -1,9 +1,10 @@
 from openai import OpenAI, APIError
+from config import APIKEY
 import os
 import similarity_folders 
 
 # OpenAI API KEY
-client = OpenAI(api_key="{$APIKEY}")
+client = OpenAI(api_key=APIKEY)
 
 index = 0
 
