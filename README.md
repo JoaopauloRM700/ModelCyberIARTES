@@ -63,7 +63,7 @@ pip install python-dotenv
 
 ### ⚙️ Running the Similarity Removal and Transcription
 
-To execute the transcription process, run the `main.py` script. This script utilizes the OpenAI GPT-3.5 Turbo model to generate transcriptions for a set of input documents. Adjust the paths in the `input_folder` and `output_folder` variables according to your project structure.
+To execute the transcription process, run the `main.py` script. This script utilizes the Groq Meta Llama 3 8B model to generate transcriptions for a set of input documents. Adjust the paths in the `input_folder` and `output_folder` variables according to your project structure.
 
 ```bash
 python main.py
