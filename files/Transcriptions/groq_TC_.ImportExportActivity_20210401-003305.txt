@@ -1,0 +1,43 @@
+Test Case protect.budgetwatch/.ImportExportActivity
+
+Description: This test case is for the ImportExportActivity screen of the BudgetWatch application.
+
+Preconditions: 
+
+1- Have BudgetWatch installed. 
+2- Being on the ImportExportActivity screen.
+
+Test Steps: 
+
+1. Clicked on the button.
+2. Clicked on the "Próximo mês" (Next month) ImageButton.
+3. Clicked on the "Mês passado" (Previous month) ImageButton.
+4. Clicked on the "TextView" to select a date.
+5. Clicked on the "TextView" to select a currency.
+6. Clicked on the "TextView" to select a budget.
+7. Clicked on the "Mês passado" (Previous month) ImageButton.
+8. Clicked on the "Próximo mês" (Next month) ImageButton.
+9. Clicked on the button.
+10. Got an error, see errors.txt line 5.
+11. Clicked on the Spinner.
+12. Clicked on the CheckedTextView.
+13. Scrolled up the ScrollView.
+14. Long-clicked on the top left Spinner.
+15. Back-pressed.
+16. Clicked on the button.
+17. Clicked on the button.
+18. Got an error, see errors.txt line 4.
+19. Scrolled up the Spinner.
+20. Clicked on the CheckedTextView.
+21. Long-clicked on the bottom Spinner.
+22. Clicked on the CheckedTextView.
+23. Clicked on the button.
+24. Scrolled down the ScrollView.
+25. Clicked on the button.
+26. Got an error, see errors.txt line 5.
+27. Clicked on the Spinner.
+28. Clicked on the CheckedTextView.
+29. Clicked on the "Navegar para cima" (Navigate up) ImageButton.
+30. Proceeded to the next activity, which is "protect.budgetwatch/.MainActivity".
+
+Result obtained: The test case execution includes screenshots of each action performed on the ImportExportActivity screen.

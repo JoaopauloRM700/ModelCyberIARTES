@@ -1,0 +1,30 @@
+Test Case: protect.budgetwatch/.ImportExportActivity
+
+Description: This test case is for the ImportExportActivity screen of the Budgetwatch application. It includes the following actions:
+
+1. Clicked on the Spinner.
+2. Clicked on a CheckedTextView.
+3. Clicked on a Button.
+4. Clicked on the "Mês passado" ImageButton.
+5. Clicked on the "Próximo mês" ImageButton.
+6. Clicked on a TextView.
+7. Clicked on another TextView.
+8. Clicked on another TextView.
+9. Clicked on another TextView.
+10. Exception occurred at line 6, details in errors.txt.
+11. Clicked on a Button.
+12. Clicked on another Button.
+13. Exception occurred at line 8, details in errors.txt.
+14. Long-clicked on the bottom Spinner.
+15. Clicked on a CheckedTextView.
+16. Scrolled down the Spinner.
+17. Clicked on another CheckedTextView.
+18. Scrolled up the Spinner.
+19. Back Pressed.
+20. Long-clicked on the top left Spinner.
+21. Back Pressed.
+22. Scrolled up the ScrollView.
+23. Clicked on the "Navegar para cima" ImageButton.
+24. Proceeded to the next activity, which is "protect.budgetwatch/.MainActivity".
+
+The test case execution includes screenshots for each action performed on the ImportExportActivity screen. The errors.txt file contains the error details for lines 6 and 8.

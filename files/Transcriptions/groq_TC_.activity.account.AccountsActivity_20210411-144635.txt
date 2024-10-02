@@ -1,0 +1,17 @@
+This test case is for the AccountsActivity screen of the Moneytracker application.
+
+The test case includes the following actions:
+
+1. Long-clicked on the top-left of the LinearLayout.
+2. Long-clicked on the center of the LinearLayout.
+3. Clicked on a TextView item with the text "BBD".
+4. Long-clicked on the bottom of the LinearLayout.
+5. Long-clicked on the center of the Spinner with the ID "spinnerCurrency".
+6. Clicked on a TextView item with the text "BBD".
+7. Clicked on the LinearLayout.
+
+After completing these actions, the test case proceeds to the next activity, which is "com.blogspot.e_kanivets.moneytracker/.activity.account.TransferActivity".
+
+The test case also includes screenshots of each action performed on the AccountsActivity screen.
+
+If you need further assistance, feel free to ask!

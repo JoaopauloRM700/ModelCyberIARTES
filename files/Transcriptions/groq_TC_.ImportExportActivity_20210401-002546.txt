@@ -1,0 +1,21 @@
+The provided test case is for the ImportExportActivity screen of the Budgetwatch application. It includes the following actions:
+1. Scrolled down the ScrollView to the end.
+2. Clicked on the Spinner.
+3. Clicked on the CheckedTextView.
+4. Clicked on the first Button.
+5. Clicked on the second Button.
+6. Caught an error, see errors.txt line 5.
+7. Clicked on the third Button.
+8. Clicked on the "Month previous" ImageButton.
+9. Clicked on the "Month previous" ImageButton again.
+10. Clicked on the "Next month" ImageButton.
+11. Clicked on the first TextView.
+12. Clicked on the second TextView.
+13. Clicked on the third TextView.
+14. Clicked on the "Next month" ImageButton again.
+15. Back pressed the activity.
+16. Caught an error, see errors.txt line 5.
+17. Clicked on the fourth Button.
+18. Ended the activity flow and proceeded to the next activity, which is "home".
+
+If you need further assistance, feel free to ask!

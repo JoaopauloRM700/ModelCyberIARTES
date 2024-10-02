@@ -1,0 +1,18 @@
+The provided test case is for the ImportExportActivity screen of the BudgetWatch application. It includes the following actions:
+1. Clicked on a Spinner. 
+2. Clicked on a CheckedTextView. 
+3. Clicked on a Button.
+4. Clicked on the "Mês passado" ImageButton. 
+5. Clicked on a second Button.
+Note: Two errors occurred during the testing process. The errors can be found in the "errors.txt" file, specifically on lines 7 and 9.
+
+Subsequent actions include:
+6. Clicked on a third Button.
+7. Clicked on a Button from a menu that was pressed. 
+8. Clicked on a fourth Button.
+9. Long-clicked on the center of the Spinner to open a context menu.
+10. Clicked on the same CheckedTextView.
+11. Clicked on two different Buttons.
+12. Proceeded to the next activity, which is the Home activity.
+
+If you have any further questions, please don't hesitate to ask.

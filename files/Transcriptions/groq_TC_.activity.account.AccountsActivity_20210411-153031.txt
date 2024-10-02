@@ -1,0 +1,27 @@
+The Test Case com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity with ID TC_.activity.account.AccountsActivity_20210411-153031 includes the following actions:
+
+1. Long-clicked on the bottom LinearLayout.
+2. Clicked on the LinearLayout.
+3. Long-clicked on the top-left LinearLayout.
+4. Clicked on the LinearLayout.
+5. Scrolled down the ListView.
+6. Scrolled right the ListView.
+7. Scrolled right the "Currency" Spinner.
+8. Scrolled up the ListView.
+9. Clicked on a TextView item with the text "KRW".
+10. Long-clicked on the center LinearLayout.
+11. Scrolled up the "Currency" Spinner.
+12. Clicked on a TextView item with the text "LAK".
+13. Long-clicked on the top-left "Currency" Spinner.
+14. Clicked on a TextView item with the text "LYD".
+15. Long-clicked on the bottom "Currency" Spinner.
+16. Scrolled down the ListView.
+17. Clicked on a TextView item with the text "CVE".
+18. Long-clicked on the top-left "Currency" Spinner.
+19. Scrolled down the ListView.
+20. Scrolled left the ListView.
+21. Clicked on the "Transferir" button.
+
+After performing these actions, the application navigates to the TransferActivity.
+
+Each action is accompanied by a screenshot, which provides visual evidence of the test case execution.

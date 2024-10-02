@@ -1,0 +1,32 @@
+Let's break down the test case:
+
+**Test Case ID:** TC_.activity.account.TransferActivity_20210411-144754
+**Test Case:** com.blogspot.e_kanivets.moneytracker/.activity.account.TransferActivity
+
+**Actions:**
+
+1. **Typed in android.widget.EditText com.blogspot.e_kanivets.moneytracker:id/et_to_amount**:
+	* Location: [374,299][692,378]
+	* Value: A+>Vdadt)4F-/.c
+	* Screenshot: states/state_20210411-144800.png
+2. **Typed in android.widget.EditText com.blogspot.e_kanivets.moneytracker:id/et_from_amount**:
+	* Location: [28,299][346,378]
+	* Value: 30151602285102905116
+	* Screenshot: states/state_20210411-144808.png
+3. **Long click center android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner_from**:
+	* Location: [28,210][346,280]
+	* Screenshot: states/state_20210411-144816.png
+4. **Clicked android.widget.TextView android:id/text1**:
+	* Default location: [28,210][206,238]
+	* Screenshot: states/state_20210411-144822.png
+5. **Clicked android.widget.Spinner com.blogspot.e_kanivets.moneytracker:id/spinner_to**:
+	* Location: [374,210][692,280]
+	* Screenshot: states/state_20210411-144827.png
+6. **Clicked android.widget.TextView android:id/text1**:
+	* Default location: [374,210][552,238]
+	* Screenshot: states/state_20210411-144832.png
+7. **Clicked android.widget.ImageButton "Navegar para cima"**:
+	* Location: [0,55][98,153]
+	* Screenshot: states/state_20210411-144837.png
+
+**Result:** The test case execution proceeded to the next activity, which is "com.blogspot.e_kanivets.moneytracker/.activity.account.AccountsActivity".

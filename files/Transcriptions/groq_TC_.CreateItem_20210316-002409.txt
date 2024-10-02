@@ -1,0 +1,30 @@
+Test Case org.simpledo/.CreateItem
+
+Description: Perform various actions on the CreateItem screen of an application.
+
+Preconditions:
+
+1. The application is installed and running.
+2. The user is on the CreateItem screen.
+
+Test Steps:
+
+1. Long-pressed the "Spinner" element.
+2. Clicked on a "CheckedTextView" element.
+3. Long-pressed the "Spinner" element.
+4. Clicked on a "TextView" element.
+5. Typed "cmjxBwEdyDnSLBXCYnFvrqEneuqUdAXtANjEqeSascKEvCaXJFRzwNcLXYYqUwmFUOjefkwyuiecSyCKiWGFdifDXZIeMqWqRVuo" into the first "EditText" field.
+6. Typed "22628257874075845470" into the second "EditText" field.
+7. Scrolled down the "Spinner" element.
+8. Clicked on a "CheckedTextView" element.
+9. Clicked on the "Create Item, Navigate Up" button.
+10. The test case resulted in a crash and an error.
+
+Result:
+
+1. A crash occurred at line 108 of the crash.txt file.
+2. An error occurred at line 432 of the errors.txt file.
+
+Note: Crash and error details are provided in separate files (crash.txt and errors.txt respectively).
+
+If you need further assistance, feel free to ask!
