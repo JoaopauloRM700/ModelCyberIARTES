@@ -46,26 +46,20 @@ Activate the virtual environment:
 
 ### ⚙️ Configuration - API Key
 
-To avoid including your API key directly in the code, store it in a separate file and read it in your code. Follow these steps:
+To avoid including your API key directly in the code, store it in a `.env` file. Follow these steps:
 
-Create a file named config.py and store your API key in it:
+1. Create a file named `.env` in the root of your project and store your API key in it:
 
 ```bash
-# config.py
-APIKEY = "your_key_here"
+GROQ_API_KEY="your-key-here"
 ```
 Replace "your_key_here" with your actual API key.
 
-In your main script, import the key as follows:
+2. Use the python-dotenv package to load the environment variables in your main script. You can install it using:
 
-    from config import APIKEY
-    ...
-    
-    # Initialize the OpenAI client with the API key
-    client = OpenAI(api_key=APIKEY)
-.
-
-This way, you can keep your API key in a separate file and do not need to expose it directly in the main source code. Be sure to keep the config.py file secure and not share it publicly to prevent unauthorized access to your API key.
+```bash
+pip install python-dotenv
+```
 
 ### ⚙️ Running the Similarity Removal and Transcription
 
