@@ -19,11 +19,6 @@ Key Objectives
 
 - Python 3.10.9
 
-### 🔧 Installation
-
-```bash
-pip install -r requirements.txt
-```
 
 ### 🚀 Getting Started ( Note: Linux environment )
 
@@ -43,6 +38,12 @@ Create a virtual environment named venv:
 Activate the virtual environment:
 
     source venv/bin/activate
+
+### 🔧 Installation
+
+```bash
+pip install -r requirements.txt
+```
 
 ### ⚙️ Configuration - API Key
 
